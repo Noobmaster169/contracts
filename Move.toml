@@ -1,0 +1,16 @@
+[package]
+name = "deducation"
+version = "1.0.0"
+authors = []
+
+[addresses]
+deducation = '40e80ab1a052677c01e512d65eff6f535d5c421101973d49b789c3a1047feb5f'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
